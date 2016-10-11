@@ -7,16 +7,16 @@ function Entry(title, body) {
 
 Entry.prototype.wordCount = function() {
 
-}
+};
 
 Entry.prototype.vowelCount = function() {
 
-}
+};
 
 Entry.prototype.consonantCount = function() {
 
-}
+};
 
 Entry.prototype.getTeaser = function() {
 
-}
+};

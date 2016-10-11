@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#journal').submit(function(event) {
+  $('#numbers').submit(function(event) {
     event.preventDefault();
     var title = $('#title').val();
     var body = $('#body').val();
