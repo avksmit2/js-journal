@@ -15,8 +15,7 @@ Entry.prototype.consonantCount = function() {
   var entryLetters = this.body.split("");
 
   entryLetters.forEach(function(letter) {
-    if (letter !== " " && isNaN(letter)) {
-      debugger;
+    if (letter !== " " && letter.match(/[a-z]/i)) {
       if (vowels.indexOf(letter) === -1) {
         consonantCount++;
       }
